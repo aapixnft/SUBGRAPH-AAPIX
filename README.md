@@ -1,5 +1,5 @@
-# screensaver-subgraph
+# SUBGRAPH-AAPIX
 
-Build: QmSrZgzmxpKwNiBkN2if6PgoeyZUxLov7QUTUCdYyndBXX
+Build: QmUpdi2TR92rfzVF1evLNGCz58GEZbTrd8H1zjXDK8V4SQ
 
-Deployed to https://thegraph.com/explorer/subgraph/jsmellz/screensaver# Screensaver-subgraph
+Deployed to https://thegraph.com/hosted-service/subgraph/aapixnft/aapix-mainnet
