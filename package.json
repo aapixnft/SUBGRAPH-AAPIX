@@ -1,0 +1,17 @@
+{
+  "name": "aapix-mainnet",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --access-token '0b76a1baaff64a82ac64f2d15cd6bdc2' --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ aapixnft/aapix-mainnet",
+    "create-local": "graph create --node http://localhost:8020/ aapixnft/aapix-mainnet",
+    "remove-local": "graph remove --node http://localhost:8020/ aapixnft/aapix-mainnet",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 aapixnft/aapix-mainnet"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.20.0",
+    "@graphprotocol/graph-ts": "0.20.0",
+    "@protofire/subgraph-toolkit": "^0.1.2"
+  }
+}
